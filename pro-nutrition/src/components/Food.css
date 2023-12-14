@@ -1,0 +1,72 @@
+.foodbox-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+    background-color: #2C2C2C;
+    border-radius: 10px;
+    height: 125px;
+    box-shadow: #00FF89 1px 1px 10px 1px;
+    margin-bottom: 25px;
+}
+
+.foodbox-main-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.foodbox-main-left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.foodbox-main-left input{
+    width: 160px;
+    height: 20px;
+    padding: 5px;
+    color: #00FF89;
+    font-weight: bold;
+    background-color: #242424;
+}
+.foodbox-main-left button{
+    width: 40px;
+    height: 40px;
+    background-color: #242424;
+    border:none;
+    border-radius: 4px;
+    margin: 1px;
+    font-size: 25px;
+    color: #00FF89;
+    border:2px solid #00FF89;
+}
+
+#num{
+    width: 160px;
+    height: 28px;
+    padding: 5px;
+}
+.foodbox-main-left-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foodbox-main-right{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.foodbox-main-right button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #242424;
+    border: none;
+    color:#00FF89;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: #00FF89 1px 1px;
+}
