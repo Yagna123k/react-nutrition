@@ -6,8 +6,7 @@ const Food = (props) => {
     // let {data, index} = props
     // let {cal,id,img,name} = data
 
-    let {data:{cal,id,img,name},index} = props    
-
+    let {data:{cal,id,img,name},index} = props
     const [input ,setInput] = useState(0) 
     const [quantity ,setQuantity] = useState(0)
 
